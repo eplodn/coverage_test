@@ -1,0 +1,13 @@
+from setuptools import setup, find_packages
+
+with open('requirements.txt') as f:
+    required = [r for r in f.read().splitlines() if not r.startswith('git+http')]
+
+setup(name='infra',
+      version='0.1.0',
+      description='infra',
+      long_description='',
+      author='eplodn',
+      packages=find_packages(),
+      install_requires=required,
+      license='None')
