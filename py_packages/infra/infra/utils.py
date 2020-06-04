@@ -1,4 +1,3 @@
-import os
 
 def check(some_number):
     if some_number == 0:
