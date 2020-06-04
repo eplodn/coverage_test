@@ -1,2 +1,2 @@
-ujson==1.35
+flask
 
