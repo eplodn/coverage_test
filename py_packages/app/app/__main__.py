@@ -16,7 +16,7 @@ if os.environ.get('COLLECT_COVERAGE') == '1':
 
     cov = coverage.Coverage(data_file=f'{coverage_dir}/.coverage',
                             data_suffix=True,
-                            include=['*app*', '*infra*'])
+                            include=['*/app/*', '*/infra/*'])
     cov.start()
 else:
     cov = None
@@ -49,7 +49,7 @@ def clean_sigint(*args, **kwargs):
         os._exit(1)
 
 
-app = Flask('eplodn')
+app = Flask('eplodn_flask_app')
 api = Api(app)
 
 

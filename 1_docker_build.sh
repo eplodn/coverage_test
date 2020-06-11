@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build . -t eplodn
+docker build . -t eplodn_image
