@@ -16,7 +16,7 @@ if os.environ.get('COLLECT_COVERAGE') == '1':
 
     cov = coverage.Coverage(data_file=f'{coverage_dir}/.coverage',
                             data_suffix=True,
-                            include=['*app*', '*utils*'])
+                            include=['*app*', '*infra*'])
     cov.start()
 else:
     cov = None
