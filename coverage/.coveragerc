@@ -2,7 +2,10 @@
 relative_files=True
 
 [paths]
-source =
+app =
     $PWD/py_packages/app/app/
     /eplodn/app
+    
+infra = 
+    $PWD/py_packages/infra/infra/
     /eplodn/infra
