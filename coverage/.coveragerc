@@ -3,9 +3,9 @@ relative_files=True
 
 [paths]
 app =
-    $PWD/py_packages/app/app/
+    $PWD/../py_packages/app/app/
     /eplodn/app
     
 infra = 
-    $PWD/py_packages/infra/infra/
+    $PWD/../py_packages/infra/infra/
     /eplodn/infra
